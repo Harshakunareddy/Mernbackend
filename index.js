@@ -127,8 +127,8 @@ app.use("/posts",postRoutes);
 
 // comments
 // const commentRoutes = require("./routes/comments.js");
-import router from "./routes/comment.js";
-app.use('/comments', router);
+// import router from "./routes/comment.js";
+// app.use('/comments', router);
 
 
 
