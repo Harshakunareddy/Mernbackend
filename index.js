@@ -136,9 +136,10 @@ app.use('/comments', router);
 // const PORT =
 // MONGODB_URL = "mongodb+srv://kunareddyharshareddy:qwertyuiop@cluster0.aau5hyg.mongodb.net/?retryWrites=true&w=majority"
 // mongoose.connect("mongodb://127.0.0.1/social",{
-//mongoose.connect( "mongodb+srv://kunareddyharshareddy:qwertyuiop@cluster0.aau5hyg.mongodb.net/?retryWrites=true&w=majority",{
-mongoose
-  .connect(process.env.MONGODB_URL, {
+// mongoose
+//   .connect(process.env.MONGODB_URL, {
+mongoose.connect( "mongodb+srv://kunareddyharshareddy:qwertyuiop@cluster0.aau5hyg.mongodb.net/?retryWrites=true&w=majority",{
+
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
