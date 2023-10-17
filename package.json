@@ -21,7 +21,7 @@
   "type": "module",
   "scripts": {
     "start": "node index",
-    "dev": "nodemon index"
+    "dev": "node index"
   },
   "author": "",
   "license": "ISC",
